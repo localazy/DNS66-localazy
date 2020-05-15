@@ -56,3 +56,12 @@ dependencies {
         exclude module: 'objenesis'
     }
 }
+
+
+apply plugin: 'com.localazy.gradle'
+
+localazy {
+    // These keys are no longer valid!
+    readKey "a9066261199145664497-5602340c6a0e28550f9060bb55bfdf253fcb3d4763a040536593290bb3289a94"
+    writeKey "a9066261199145664497-1443e3e9823239e3c9bef73d4dc3b21272d0207e9fb6c2c015a41dae0774e205"
+}
